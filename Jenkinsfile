@@ -15,7 +15,7 @@ def DEPLOY_MESSAGE = null
 
 // Allows appeals-deployment branch (defaults to master) to be overridden for
 // testing purposes
-def DEPLOY_BRANCH = (env.DEPLOY_BRANCH != null) ? env.DEPLOY_BRANCH : 'master'
+def DEPLOY_BRANCH = (env.DEPLOY_BRANCH != null) ? env.DEPLOY_BRANCH : 'raa-dev-null-check'
 
 /************************ Common Pipeline boilerplate ************************/
 
